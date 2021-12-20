@@ -11,8 +11,8 @@ blockquote {
     font-style: italic;
     text-align: center;
     border: 3px solid burlywood;
-    max-width:40%;
-    height: 13rem;
+    width: 480px;
+    height: 14rem;
     margin: 1rem 1rem 1rem 1rem;
     border-radius: 10px;
 }
@@ -44,14 +44,25 @@ header, footer {
     font-family: 'Kavivanar', cursive;
     color: navy;
 }
-.logo {
+
+div.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+div.item {
+    flex: initial;
+    flex-basis: 45%;
+    margin: 5px;
+}
+div.logo {
     float: left;
     margin-bottom: 5rem;
 }
 nav {
     border-bottom: 5px solid burlywood;
     border-top: 5px solid burlywood;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 nav ul {
     list-style-type: none;
@@ -62,6 +73,9 @@ nav li {
     color: navy;
     display: inline-block;
     font-family: 'Kavivanar', cursive;
+}
+ul.expect {
+    list-style-type: square;
 }
 footer {
     text-align: center;
