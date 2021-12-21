@@ -1,9 +1,68 @@
-body {
+html, body {
     font-family: 'Open Sans', sans-serif;
-    background-color: wheat;
+    background-color: #f5deb3;
 }
 img {
     border-radius: 10px;
+}
+h1 {
+    color: #000080;
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    font-weight: bold;
+}
+h2, h3 {
+    color: #000080;
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #800080;
+    text-decoration: underline;
+    background-color: white;
+}
+header, footer {
+    font-family: 'Kavivanar', cursive;
+    color: #000080;
+}
+div.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 30px;
+}
+div.item {
+    flex: initial;
+    flex-basis:auto;
+    margin: 5px;
+}
+div.logo {
+    float: left;
+    margin-bottom: 5rem;
+}
+nav {
+    border-bottom: 5px solid #deb887;
+    border-top: 5px solid #deb887;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    width: 12rem;
+    color: #000080;
+    display: inline-block;
+    font-family: 'Kavivanar', cursive;
+}
+ul.expect {
+    list-style-type: square;
 }
 blockquote {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,63 +78,6 @@ blockquote {
 cite {
     font-size: 1.1rem;
     font-weight: bold;
-}
-h1 {
-    color: navy;
-    text-align: center;
-    font-family: 'Kavivanar', cursive;
-    font-weight: bold;
-}
-h2, h3 {
-    color: rgb(0, 0, 128);
-    font-family: 'Kavivanar', cursive;
-    font-weight: normal;
-}
-a:link {
-    font-weight: bold;
-    text-decoration: none;
-}
-a:hover {
-    color: purple;
-    text-decoration: underline;
-    background-color: white;
-}
-header, footer {
-    font-family: 'Kavivanar', cursive;
-    color: navy;
-}
-
-div.container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-div.item {
-    flex: initial;
-    flex-basis: 45%;
-    margin: 5px;
-}
-div.logo {
-    float: left;
-    margin-bottom: 5rem;
-}
-nav {
-    border-bottom: 5px solid burlywood;
-    border-top: 5px solid burlywood;
-    margin-top: 5rem;
-}
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-nav li {
-    width: 12rem;
-    color: navy;
-    display: inline-block;
-    font-family: 'Kavivanar', cursive;
-}
-ul.expect {
-    list-style-type: square;
 }
 footer {
     text-align: center;
@@ -96,7 +98,7 @@ aside {
 	flex-basis: 33%;
 }
 fieldset{
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
@@ -125,15 +127,15 @@ button {
     font-size: 1rem;
     font-weight: bold;
     margin: 2rem 0;
-    background-color: white;
-    color: navy;
+    background-color: #ffffff;
+    color: #000080;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 10px;
 }
 button:hover {
-    background-color: navy;
-    color: white;
+    background-color: #000080;
+    color: #ffffff;
 }
 input:not([type="radio"]):not([type="checkbox"]),textarea {
     display: block;
