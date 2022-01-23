@@ -1,6 +1,6 @@
 html, body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f5deb3;
+    font-family: sans-serif;
+    background-color: #ffffff;
 }
 img {
     border-radius: 10px;
@@ -8,12 +8,12 @@ img {
 h1 {
     color: #000080;
     text-align: center;
-    font-family: 'Kavivanar', cursive;
+    font-family: serif;
     font-weight: bold;
 }
 h2, h3 {
     color: #000080;
-    font-family: 'Kavivanar', cursive;
+    font-family: serif;
     font-weight: normal;
 }
 a:link {
@@ -21,12 +21,12 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: #800080;
+    color: #000080;
     text-decoration: underline;
     background-color: white;
 }
 header, footer {
-    font-family: 'Kavivanar', cursive;
+    font-family: serif;
     color: #000080;
 }
 div.container {
@@ -46,8 +46,8 @@ div.logo {
     margin-bottom: 5rem;
 }
 nav {
-    border-bottom: 5px solid #deb887;
-    border-top: 5px solid #deb887;
+    border-bottom: 5px solid #8080eb;
+    border-top: 5px solid #8080eb;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -59,17 +59,17 @@ nav li {
     width: 12rem;
     color: #000080;
     display: inline-block;
-    font-family: 'Kavivanar', cursive;
+    font-family: serif;
 }
 ul.expect {
     list-style-type: square;
 }
 blockquote {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     font-size: 1.1rem;
     font-style: italic;
     text-align: center;
-    border: 3px solid burlywood;
+    border: 3px solid #8080eb;
     width: 480px;
     height: 14rem;
     margin: 1rem 1rem 1rem 1rem;
@@ -83,6 +83,11 @@ footer {
     text-align: center;
     padding: 1rem 0 3rem 0;
 }
+.copy {
+    font-weight: bold;
+}
+
+/*contact-page*/
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
@@ -96,6 +101,16 @@ section {
 }
 aside {
 	flex-basis: 33%;
+}
+form {
+    background-color: #8080eb;
+    color: #ffffff;
+    width: 70vw;
+	max-width: 600px;
+	min-width: 400px;
+	margin: 0 auto;
+    padding: 2.5rem 2rem;
+    border-radius: 0.25rem;
 }
 fieldset{
     border: 1px solid #000000;
@@ -129,7 +144,6 @@ button {
     margin: 2rem 0;
     background-color: #ffffff;
     color: #000080;
-    border: none;
     padding: 0.5rem 1rem;
     border-radius: 10px;
 }
