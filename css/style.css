@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     font-family: sans-serif;
     background-color: #ffffff;
@@ -25,6 +28,14 @@ a:link {
     font-weight: bold;
     text-decoration: none;
 }
+.intro {
+    height: 100vh;
+}
+.intro-text { 
+    border: 1px solid black;
+    width: 500px; 
+    font-size: 20px;
+}
 a:hover {
     color: #000080;
     text-decoration: underline;
@@ -44,7 +55,6 @@ div.item {
 nav {
     border-bottom: 5px solid #8080eb;
     border-top: 5px solid #8080eb;
-    margin-top:;
     margin-bottom: 1rem;
 }
 nav ul {
