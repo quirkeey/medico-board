@@ -18,47 +18,13 @@ h1 {
     font-family: serif;
     font-weight: bold;
 }
-h2, h3 {
-    color: #000080;
-    font-family: serif;
-    font-weight: normal;
-}
 a:link {
     font-weight: bold;
     text-decoration: none;
 }
-.intro {
-    height: 100vh;
-}
-.intro-heading {
-    font-size: 36px;
-    font-family: serif;
-    font-weight: bolder;
-    color: #000080;
-}
-.intro-text { 
-    width: 400px; 
-    font-size: 20px;
-}
-img.intro-image {
-    width: 500px;
-    height: 300px;
-}
 a:hover {
     color: #000080;
     text-decoration: underline;
-}
-div.container {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: baseline;
-    gap: 30px;
-}
-div.item {
-    flex: initial;
-    flex-basis:auto;
-    margin: 5px;
 }
 nav {
     border-bottom: 5px solid #8080eb;
@@ -77,6 +43,41 @@ nav li {
 }
 ul.expect {
     list-style-type: square;
+}
+h2, h3 {
+    color: #000080;
+    font-family: serif;
+    font-weight: normal;
+}
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro-heading {    
+    width: 400px;
+    height: 300px;
+    padding: 100px 0 ;
+    margin-left: 100px;
+}
+.intro-name {
+    font-size: 32px;
+    font-family: serif;
+    font-weight: bolder;
+    color: #000080;
+}
+img.doctors-image {
+    width: 750px;
+    height: 400px;
+}
+img.board-image {
+    width: 750px;
+    height: 400px;
+}
+.intro-text { 
+    width: 400px; 
+    height: 300px;
+    padding: 100px 0 ;
+    margin-right: 100px;
 }
 blockquote {
     font-family: cursive;
