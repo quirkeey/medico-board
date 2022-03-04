@@ -53,13 +53,13 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
 }
-.intro-heading {    
+.intro-head {    
     width: 400px;
     height: 300px;
     padding: 100px 0 ;
     margin-left: 100px;
 }
-.intro-name {
+.intro-title {
     font-size: 32px;
     font-family: serif;
     font-weight: bolder;
@@ -79,7 +79,15 @@ img.board-image {
     padding: 100px 0 ;
     margin-right: 100px;
 }
-blockquote {
+.opp {
+    display: flex;
+    flex-wrap: wrap;
+}
+.schol, .vol, .net {
+    width: 350px;
+    height: 450px;
+}
+/*blockquote {
     font-family: cursive;
     font-size: 1.1rem;
     font-style: italic;
@@ -93,6 +101,11 @@ blockquote {
 cite {
     font-size: 1.1rem;
     font-weight: bold;
+}*/
+
+.schol-image, .vol-image, .net-image {
+    width: 300px;
+    height: 170px;
 }
 footer {
     text-align: center;
@@ -147,11 +160,6 @@ label {
     display: block;
     font-size: 1rem;
 }
-textarea {
-    height: 6rem;
-    width: 25rem;
-    padding: 1rem;
-}
 select {
     font-size: 1.1rem;
     margin-bottom: 2rem;
@@ -175,9 +183,15 @@ input:not([type="radio"]):not([type="checkbox"]),textarea {
     display: block;
     margin-bottom: 2rem;
     width: 20rem;
+    height: 2rem;
     font-family: 'Open Sans' sans-serif;
     font-size: 1rem;
     padding: 0 1rem;
     border-radius: 10px;
     border: none;
+}
+textarea {
+    height: 6rem;
+    width: 25rem;
+    padding: 1rem;
 }
