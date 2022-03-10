@@ -40,9 +40,6 @@ nav li {
     display: inline-block;
     font-family: serif;
 }
-ul.expect {
-    list-style-type: square;
-}
 h2, h3 {
     color: #000080;
     font-family: serif;
@@ -109,7 +106,6 @@ footer {
     color: #000080;
 
 }
-
 /*contact-page*/
 
 .wrapper {
