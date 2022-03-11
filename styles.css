@@ -10,6 +10,12 @@ header {
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 div.logo {
     margin: 0 0.625rem;
 }
@@ -66,7 +72,7 @@ section.intro {
 .desc {
     display: flex;
     flex-wrap: nowrap;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 img.board-image {
     width: 750px;
@@ -78,6 +84,25 @@ img.board-image {
     height: 300px;
     padding: 100px 0 ;
     margin: 100px 100px 0 0;
+}
+@media only screen and (max-width: 600px) {
+    .desc {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    img.board-image {
+        width: 80%;
+        height:400px;
+        margin: 0;
+    }
+    .intro-text { 
+        width: 70%; 
+        height: 200px;
+        padding: 0;
+        margin: 0;
+    }
 }
 .opp {
     display: flex;
@@ -91,13 +116,38 @@ img.board-image {
     margin: 50px 0;
     text-align: justify;
 }
+.schol-title, .vol-title, .net-title {
+    text-align: center;
+}
 .schol-image, .vol-image, .net-image {
-    width: 300px;
-    height: 170px;
+    width: 100%;
+    height:;
 }
 footer {
     text-align: center;
     padding: 1rem 0 3rem 0;
+}
+@media only screen and (max-width: 600px) {
+    .opp {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    .schol, .vol, .net {
+        width: 80%;
+        height: 380px;
+        margin: 0 0 5px 0;
+    }
+    .schol-image, .vol-image, .net-image {
+        width: 100%;
+        height: 170px;
+    }
+    footer {
+        text-align: center;
+        padding: 1rem 0 3rem 0;
+        margin-top: 20px;
+    }
 }
 .copy {
     font-weight: bold;
