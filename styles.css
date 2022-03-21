@@ -19,9 +19,15 @@ header {
 div.logo {
     margin: 0 0.625rem;
 }
+p.logo-name {
+    color: #000080;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
 h1 {
     color: #000080;
-    font-family: 'Abril Fatface', cursive;;
+    font-family: 'Abril Fatface', cursive;
     font-weight: bold;
 }
 a:link {
@@ -55,6 +61,8 @@ section.intro {
     height: 100vh;
     width: 100%;
     background-image: url(images/doctors.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     background-color: transparent;
     margin-top: 0;
 }
@@ -157,7 +165,7 @@ footer {
 }
 .copy {
     font-weight: bold;
-    font-family: serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 1.125rem;
     color: #000080;
 
