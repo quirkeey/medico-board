@@ -66,11 +66,6 @@ section.intro {
     background-color: transparent;
     margin-top: 0;
 }
-.intro-head {    
-    padding: 150px 0 ;
-    margin-left: 100px;
-    color: #000080;
-}
 .intro-title {
     font-size: 32px;
     font-family: serif;
@@ -88,10 +83,13 @@ img.board-image {
     margin-top: 50px;
 }
 .intro-text { 
-    width: 400px; 
+    width: 270px; 
     height: 300px;
-    padding: 100px 0 ;
-    margin: 100px 100px 0 0;
+    padding: 50px 0 0 0 ;
+    margin: 80px 10px -80px 0;
+}
+button.sign {
+    border: 1px solid blueviolet;
 }
 @media only screen and (max-width: 600px) {
     section.intro {
@@ -217,7 +215,7 @@ select {
     border-radius: 10px;
     border: none;
 }
-button {
+button.submit {
     font-size: 1rem;
     font-weight: bold;
     margin: 2rem 0;
