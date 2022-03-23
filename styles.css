@@ -5,29 +5,15 @@ html, body {
     font-family: sans-serif;
     background-color: #fff;
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@media only screen and (max-width: 600px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-div.logo {
-    margin: 0 0.625rem;
-}
-p.logo-name {
-    color: #000080;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bold;
-    font-size: 30px;
-}
 h1 {
     color: #000080;
     font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h2, h3 {
+    color: #000080;
+    font-family: serif;
     font-weight: bold;
 }
 a:link {
@@ -37,6 +23,34 @@ a:link {
 a:hover {
     color: #000080;
     text-decoration: underline;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.logo-name {
+    color: #000080;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0 0.1rem;
+}
+@media only screen and (min-width: 576px) {
+    .logo-name {
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .logo-name {
+        font-size: 1.9rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .logo-name {
+        font-size: 2.2rem;
+    }
 }
 nav {
     border-bottom: 5px solid #8080eb;
@@ -51,11 +65,6 @@ nav li {
     color: #000080;
     display: inline-block;
     font-family: serif;
-}
-h2, h3 {
-    color: #000080;
-    font-family: serif;
-    font-weight: bold;
 }
 section.intro {
     height: 100vh;
