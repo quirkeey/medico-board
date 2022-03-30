@@ -249,16 +249,16 @@ footer p {
 	width: 80%;
 	margin: 0 auto;
 	padding: 1em;
-	display: flex;
-	flex-flow: row nowrap;
+/*	display: flex;
+	flex-flow: row nowrap;*/
 }
-section {
+/*section {
 	flex-basis: 57%;
 	margin-right: 10%;
 }
 aside {
 	flex-basis: 33%;
-}
+}*/
 form {
     background-color: #8080eb;
     color: #ffffff;
@@ -285,10 +285,11 @@ label {
     font-size: 1rem;
 }
 select {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
     border-radius: 10px;
     border: none;
+    height: 2rem;
 }
 button.submit {
     font-size: 1rem;
@@ -316,6 +317,12 @@ input:not([type="radio"]):not([type="checkbox"]),textarea {
 }
 textarea {
     height: 6rem;
-    width: 25rem;
+    width: 20rem;
     padding: 1rem;
+}
+@media only screen and (min-width: 576px) { 
+}
+@media only screen and (min-width: 768px) { 
+}
+@media only screen and (min-width: 992px) { 
 }
