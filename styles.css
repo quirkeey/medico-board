@@ -181,6 +181,7 @@ button.sign:hover {
 }
 .schol-title, .vol-title, .net-title {
     text-align: center;
+    text-shadow: 2px 2px 5px #8080eb;
 }
 .schol-image, .vol-image, .net-image {
     width: 100%;
